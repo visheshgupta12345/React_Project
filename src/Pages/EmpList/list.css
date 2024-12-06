@@ -1,0 +1,50 @@
+/* General styling */
+.employee-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .employee-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .employee-form input,
+  .employee-form select,
+  .employee-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .employee-form .radio-group,
+  .employee-form .checkbox-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .employee-form .radio-group label,
+  .employee-form .checkbox-group label {
+    margin-right: 10px;
+  }
+  
+  .employee-form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .employee-form button:hover {
+    background-color: #3e8e41;
+  }
